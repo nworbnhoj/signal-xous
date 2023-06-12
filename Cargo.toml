@@ -1,0 +1,16 @@
+[package]
+name = "signal-xous"
+version = "0.1.0"
+edition = "2021"
+authors = ["John Brown <john@nhoj.info>"]
+license = "AGPL-3.0"
+readme = "README.md"
+
+
+[dependencies]
+xous = "0.9.44"
+xous-api-names = "0.9.42"
+xous-api-log = "0.1.40"
+xous-api-ticktimer = "0.9.40"
+xous-ipc = "0.9.44"
+libsignal-protocol = { git = "https://github.com/signalapp/libsignal", tag = "v0.27.0" }
