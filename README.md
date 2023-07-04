@@ -9,11 +9,11 @@ The basic idea is to save all msg directly to the PDDB, and for the UI to traver
 
 ### Next Steps
 
-[x] develop xous [tls library](https://github.com/betrusted-io/xous-core/pull/394)
-[x] confirm tls connection Precursor <=> chat.signal.org
-[ ] confirm websocket connection Precursor <=> chat.signal.org
-[ ] resurvey Whisperfish, signal-cli & gurk for useful stuff (see useful below)
-[ ] register a Precursor as a Signal device
+- [x] develop xous [tls library](https://github.com/betrusted-io/xous-core/pull/394)
+- [x] confirm tls connection Precursor <=> chat.signal.org
+- [ ] confirm websocket connection Precursor <=> chat.signal.org
+- [ ] resurvey Whisperfish, signal-cli & gurk for useful stuff (see useful below)
+- [ ] register a Precursor as a Signal device
 
 
 ### Useful
