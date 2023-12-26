@@ -11,11 +11,14 @@ The basic idea is to save all msg directly to the PDDB, and for the UI to traver
 
 - [x] develop xous [tls library](https://github.com/betrusted-io/xous-core/pull/394) to manage the explicit trust of CA Certificates
 - [x] confirm tls connection Precursor <=> chat.signal..org [ xous shellchat `wlan on` `net tls probe chat.signal.org` `net tls test chat.signal.org` ]
-- [ ] develop xous websocket library to manage the setup, maintainance, and tear-dwn of a websocket connection. 
-- [ ] confirm websocket connection Precursor <=> chat.signal.org
+- [x] confirm websocket connection Precursor <=> chat.signal.org
 - [x] develop [xous chat library](https://github.com/betrusted-io/xous-core/pull/408) to provide a UI to interact with a Dialogue of Posts stored in the PDDB
-- [ ] resurvey Whisperfish, signal-cli & gurk for useful stuff (see useful below)
+- [x] resurvey Whisperfish, signal-cli & gurk for useful stuff (see useful below)
+- [ ] link a Precursor to an existing Signal account
+- [ ] sync messages with an individual recipient
+- [ ] send a new message to an individual recipient
 - [ ] register a Precursor as a Signal device
+- [ ] enable Signal groups
 
 
 ### Useful
